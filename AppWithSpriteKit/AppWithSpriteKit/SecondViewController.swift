@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         if let scene = GameScene2(fileNamed: "GameScene"), let skView = self.view as? SKView {
+            scene.backgroundColor = UIColor.init(red: 0, green: 128/255, blue: 1, alpha: 1)
             skView.showsFPS = true
             skView.showsNodeCount = true
             skView.ignoresSiblingOrder = true
