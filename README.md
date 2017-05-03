@@ -1,4 +1,4 @@
-# NKStduyingKorean
+# AppWithSpriteKit
 
 ### 環境
 - Xcode7
