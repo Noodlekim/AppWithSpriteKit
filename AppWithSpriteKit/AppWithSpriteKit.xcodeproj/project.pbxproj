@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034DECAD1EB95435005B5628 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 034DECAC1EB95435005B5628 /* Rain.sks */; };
+		034DECB11EB956BB005B5628 /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DECB01EB956BB005B5628 /* GameScene2.swift */; };
 		039405641C0A25C300E20A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039405631C0A25C300E20A50 /* AppDelegate.swift */; };
 		039405661C0A25C300E20A50 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039405651C0A25C300E20A50 /* FirstViewController.swift */; };
 		039405681C0A25C300E20A50 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039405671C0A25C300E20A50 /* SecondViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034DECAC1EB95435005B5628 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		034DECB01EB956BB005B5628 /* GameScene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
 		039405601C0A25C300E20A50 /* AppWithSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039405631C0A25C300E20A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		039405651C0A25C300E20A50 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -109,11 +113,13 @@
 			children = (
 				039405931C0A25F600E20A50 /* GameScene.sks */,
 				039405941C0A25F600E20A50 /* GameScene.swift */,
+				034DECB01EB956BB005B5628 /* GameScene2.swift */,
 				039405631C0A25C300E20A50 /* AppDelegate.swift */,
 				039405651C0A25C300E20A50 /* FirstViewController.swift */,
 				039405671C0A25C300E20A50 /* SecondViewController.swift */,
 				039405691C0A25C300E20A50 /* Main.storyboard */,
 				039405A11C0A361900E20A50 /* Snow.sks */,
+				034DECAC1EB95435005B5628 /* Rain.sks */,
 				039405A21C0A361900E20A50 /* spark.png */,
 				0394056C1C0A25C300E20A50 /* Assets.xcassets */,
 				0394056E1C0A25C300E20A50 /* LaunchScreen.storyboard */,
@@ -246,6 +252,7 @@
 			files = (
 				039405951C0A25F600E20A50 /* GameScene.sks in Resources */,
 				039405A41C0A361900E20A50 /* spark.png in Resources */,
+				034DECAD1EB95435005B5628 /* Rain.sks in Resources */,
 				039405701C0A25C300E20A50 /* LaunchScreen.storyboard in Resources */,
 				0394056D1C0A25C300E20A50 /* Assets.xcassets in Resources */,
 				039405A31C0A361900E20A50 /* Snow.sks in Resources */,
@@ -277,6 +284,7 @@
 				039405681C0A25C300E20A50 /* SecondViewController.swift in Sources */,
 				039405641C0A25C300E20A50 /* AppDelegate.swift in Sources */,
 				039405961C0A25F600E20A50 /* GameScene.swift in Sources */,
+				034DECB11EB956BB005B5628 /* GameScene2.swift in Sources */,
 				039405661C0A25C300E20A50 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +512,7 @@
 				0394058C1C0A25C300E20A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0394058D1C0A25C300E20A50 /* Build configuration list for PBXNativeTarget "AppWithSpriteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				0394058F1C0A25C300E20A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039405901C0A25C300E20A50 /* Build configuration list for PBXNativeTarget "AppWithSpriteKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +530,7 @@
 				039405921C0A25C300E20A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

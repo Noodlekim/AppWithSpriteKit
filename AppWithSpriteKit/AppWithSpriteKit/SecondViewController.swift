@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import SpriteKit
 
 class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        if let scene = GameScene2(fileNamed: "GameScene"), let skView = self.view as? SKView {
+            skView.showsFPS = true
+            skView.showsNodeCount = true
+            skView.ignoresSiblingOrder = true
+            
+            scene.scaleMode = .AspectFill
+            skView.frame = skView.bounds
+            skView.presentScene(scene)
+        }
+
     }
 
     override func didReceiveMemoryWarning() {

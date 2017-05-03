@@ -2,26 +2,26 @@
 //  GameScene.swift
 //  Sprite Kit
 //
-//  Created by KimGiBong on 2015/11/29.
-//  Copyright (c) 2015年 KimGiBong. All rights reserved.
+//  Created by KimGiBong on 2017/5/3.
+//  Copyright (c) 2017年 KimGiBong. All rights reserved.
 //
 
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene2: SKScene {
     
     var title: String?
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let snowPath = NSBundle.mainBundle().pathForResource("Snow", ofType: "sks")
-        let snowNode: SKEmitterNode = NSKeyedUnarchiver.unarchiveObjectWithFile(snowPath!) as! SKEmitterNode
-        snowNode.xScale = 1
-        snowNode.yScale = 1
+        let rainPath = NSBundle.mainBundle().pathForResource("Rain", ofType: "sks")
+        let rainNode: SKEmitterNode = NSKeyedUnarchiver.unarchiveObjectWithFile(rainPath!) as! SKEmitterNode
+        rainNode.xScale = 1
+        rainNode.yScale = 1
         
-        snowNode.position = CGPointMake(0, 0)
+        rainNode.position = CGPointMake(0, 0)
         
-        self.addChild(snowNode)
+        self.addChild(rainNode)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

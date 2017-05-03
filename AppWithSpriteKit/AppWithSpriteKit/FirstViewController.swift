@@ -15,26 +15,17 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
 
-        if let scene2 = GameScene(fileNamed:"GameScene") {
-            // Configure the view.
-            let skView = self.view as! SKView
+        if let scene = GameScene(fileNamed: "GameScene"), let skView = self.view as? SKView {
             skView.showsFPS = true
             skView.showsNodeCount = true
             
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene2.scaleMode = .AspectFill
+            scene.scaleMode = .AspectFill
             skView.frame = skView.bounds
             
-            skView.presentScene(scene2)
+            skView.presentScene(scene)
         }
-
-
     }
     
     override func viewDidAppear(animated: Bool) {
